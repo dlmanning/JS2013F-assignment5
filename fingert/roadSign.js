@@ -19,9 +19,3 @@ var speedLimit = new roadSign ("Speed Limit", "White", "Square");
 console.log(yield.manufacture());
 console.log(stop.manufacture());
 console.log(speedLimit.manufacture());
-
-
-
-
-
-
