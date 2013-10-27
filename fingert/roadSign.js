@@ -20,3 +20,8 @@ console.log(yield.manufacture());
 console.log(stop.manufacture());
 console.log(speedLimit.manufacture());
 
+
+
+
+
+
