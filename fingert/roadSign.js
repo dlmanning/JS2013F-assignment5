@@ -5,10 +5,11 @@ function roadSign (text, color, shape) {
 }
 
 roadSign.prototype.manufacture = function () {
+  var sen = " ";
   if (this.text == "Speed Limit"){
-    var sen = "It's a " + this.text + " sign, which is " + this.color + " and Nerdy.";
+    sen = "It's a " + this.text + " sign, which is " + this.color + " and Nerdy.";
   } else{
-	var sen = "It's a " + this.text + " sign, which is " + this.color + " and " + this.shape;
+	sen = "It's a " + this.text + " sign, which is " + this.color + " and " + this.shape;
     }
   return sen;
 }
