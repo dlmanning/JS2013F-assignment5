@@ -9,10 +9,11 @@ function Registration (name, address, phoneNumber, age, wombat) {
 
 Registration.prototype.recordMaker = function () {
   console.log(this.name + " is " + this.age + "years old, and lives at " + this.address);
-  if (this.wombat) {
-    console.log("Calling " + this.name + " at " + this.phoneNumber + " about their wombat");
+  
+  if(this.wombat) {
+    return "Calling " + this.name + " at " + this.phoneNumber + " about their wombat";
   } else {
-    console.log(this.name + " doesn't have a wombat");
+    return this.name + " doesn't have a wombat";
   }
 }
 
