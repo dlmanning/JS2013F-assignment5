@@ -5,7 +5,7 @@ function RoadSign (text, color, shape) {
 }
 
 RoadSign.prototype.whatSign = function () {
-	console.log("This sign says " + this.text + ". It is a " + this.color + " " + this.shape + ".");
+	return "This sign says " + this.text + ". It is a " + this.color + " " + this.shape + ".";
 }
 
 var yieldSign = new RoadSign ("YIELD", "Red and White", "Triangle");
